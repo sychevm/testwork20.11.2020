@@ -46,7 +46,7 @@ public class UIController : MonoBehaviour
     //-------------------------------------------
     private void UIUpdateScore(int value)
     {
-        textCoint.text = "---";
+        textCoint.text = value.ToString();
     }
 
     private void UIUpdateProgress(float value)
